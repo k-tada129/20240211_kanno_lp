@@ -23,11 +23,13 @@
     display: flex;
     margin: 10px 0px;
     height: auto;
+    position: relative;
 }
 
 .main__txt {
     position: absolute;
-    margin: 60px 150px;
+    top: 20%;
+    left: 15%;
     z-index: 10;
 }
 
@@ -35,7 +37,6 @@
     color: #B31569;
     font-size: 50px;
     line-height: 200%;
-    margin-bottom: 20px;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -212,6 +213,7 @@
     background-color: #B35B8B;
     grid-column: 2/3;
     grid-row: 1/2;
+    position: relative;
     text-align: center;
     padding: 40px 0px ;
 }
@@ -224,12 +226,17 @@
 .serviece_content--2 h3 {
     color: white;
     text-align: left;
-    padding: 20px 20px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
 .serviece_content--2 p {
     text-align: left;
     color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
 
 .serviece_content--3 {
@@ -237,6 +244,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+    position: relative;
     padding: 40px 0px;
 }
 
@@ -248,12 +256,17 @@
 .serviece_content--3 h3 {
     color: white;
     text-align: left;
-    padding: 20px 20px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
 .serviece_content--3 p {
     text-align: left;
     color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
 
 .Blog {
@@ -349,6 +362,9 @@
     font-size: 30px;
 }
 
+.Company__content--table {
+    width: 100%;
+}
 
 .Company__content th,td {
     border: 1px solid #ccc;
@@ -358,15 +374,15 @@
 
 .Company__content th {
     text-align: left;
+    width: 25%;
     padding-left: 15px;
-    padding-right: 60px;
     background-color: #F5F5F5;
 }
 
 .Company__content td {
     text-align: left;
-    padding-left: 15px;
-    padding-right: 400px;
+    width: 75%;
+    padding-left:15px;
 }
 
 .another {
